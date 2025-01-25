@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verify Account</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="verify-container">
+        <div class="card">
+          <h2>Verify Your Account</h2>
+          <p>Enter the 6-digit OTP sent to your email.</p>
+    
+          <form id="otp-form">
+            <div class="otp-inputs">
+              <input type="text" maxlength="1" class="otp-input" required />
+              <input type="text" maxlength="1" class="otp-input" required />
+              <input type="text" maxlength="1" class="otp-input" required />
+              <input type="text" maxlength="1" class="otp-input" required />
+              <input type="text" maxlength="1" class="otp-input" required />
+              <input type="text" maxlength="1" class="otp-input" required />
+            </div>
+            <button type="submit">Verify</button>
+          </form>
+          <p id="result-message" class="hidden"></p>
+          <p class="resend">Didn't receive the code? <a href="#">Resend OTP</a></p>
+        </div>
+      </div>
+  <script src="index.js"></script>
+</body>
+</html>
